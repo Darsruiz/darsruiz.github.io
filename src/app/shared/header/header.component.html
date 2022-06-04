@@ -1,0 +1,12 @@
+<div>
+    <ul class="grid grid-cols-3 -mb-px text-sm font-medium text-center">
+        <li *ngFor="let tab of tabInfo | async as list" class="col-span-1 border-b border-black">
+            <button
+                class="p-4 text-black rounded-sm aria-selected:hidden hover:text-black dark:text-black dark:hover:text-black dark:border-black"
+                type="button" (click)="setCurrentTab(tab.id)"
+                [attr.aria-selected]="tab.id == (currentTab | async) ? 'true' : 'false' ">
+                {{tab.title}}
+            </button>
+        </li>
+    </ul>
+</div>
