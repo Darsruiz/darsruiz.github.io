@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # darsruiz.github.io ..
+=======
+# darsruiz.github.io '
+>>>>>>> df6ab982b18b90d53c59c4a70cc342b019fa5934
 Personal website hosted on github Pages
 
 # PersonalPage
